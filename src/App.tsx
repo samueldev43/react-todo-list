@@ -4,7 +4,6 @@ import {Lists} from './components/List'
 import { FormEvent, useEffect, useState } from 'react';
 import axios from 'axios';
 
-
 interface Data {
   name: string,
   id: string
