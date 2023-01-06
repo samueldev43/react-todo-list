@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 
 import {App} from './App';
 
-//import global style from styled components
-
 import GlobalStyle from './styles'
 
 ReactDOM.render(
