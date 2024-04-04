@@ -1,5 +1,4 @@
 import {Container} from './styles'
-
 import {Lists} from './components/List'
 import { FormEvent, useEffect, useState } from 'react';
 import axios from 'axios';
@@ -10,7 +9,6 @@ interface Data {
 }
 
 export function App() {
-
   const [val, setVal] = useState('')
   const [lists, setNewLists] = useState<Array<Data>>([])
 
